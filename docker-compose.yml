@@ -1,0 +1,14 @@
+services:
+  jupyter:
+    image: apache/sedona:latest
+    ports:
+      - "8888:8888"
+      - "8080:8080"
+      - "8081:8081"
+      - "4040:4040"
+      - "8085:8085"
+    volumes:
+      - /Users/jgm/Documents/GitHub/RA_pressure_changes:/opt/workspace/ra # Mounts local 'notebooks' directory to container's work directory
+    environment:
+      JUPYTER_ENABLE_LAB: "yes" # Optional: enable JupyterLab%
+
