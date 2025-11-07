@@ -1,6 +1,7 @@
 services:
   jupyter:
-    image: apache/sedona:latest
+    build: .
+    container_name: ra_pressure_changes_jupyter
     ports:
       - "8888:8888"
       - "8080:8080"
