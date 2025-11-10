@@ -1,3 +1,5 @@
 #requirements.txt
 apache-sedona[db]
 leafmap
+#xarray==2024.03.0
+mapclassify
