@@ -1,3 +1,5 @@
+Note, the way I am aggregating barometric pressure requires significantly more research. The current map should not be used to make actual decisions.
+
 The intent of this Jupyter notebook is to use it to map barometric pressure changes across the United States.  The plan with the current code is to create a gridded map of point barometric pressure observations using an inverse distance squared/KNN approach.
 
 I am running the Docker Image supplied by Sedona using the docker-compose.yml file in the repo.  You'll need to change the volume local directory to match your local machines directory.
